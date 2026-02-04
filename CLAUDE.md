@@ -45,8 +45,6 @@ start
   /app
     /api
       /content/[category]/route.ts  # API to fetch random content
-      /upload/route.ts              # API to handle uploads
-    /upload/page.tsx                # Upload page for adding content
     layout.tsx                      # Root layout with fonts
     page.tsx                        # Main page with DecisionTree
     globals.css                     # Global styles and prose classes
@@ -109,13 +107,10 @@ npm start
 
 ## Adding Content
 
-### Via Upload Page
-Navigate to `/upload` to add content through the web interface.
-
-### Via File System
 1. Create a markdown file in the appropriate `/content/` subdirectory
 2. Start with `# Title` on the first line
 3. Write content in markdown format
+4. Commit and push to GitHub, then redeploy
 
 ### Markdown Features Supported
 - Headers (h1, h2, h3)
@@ -147,13 +142,6 @@ Returns a random piece of content from the specified category.
   "filename": "filename.ext"
 }
 ```
-
-### POST /api/upload
-Uploads new content. Accepts FormData with:
-- `contentType`: Category (e.g., "non-fiction-long")
-- `fileName`: Name without extension (lowercase, hyphens, numbers only)
-- `textContent`: For written content (markdown)
-- `file`: For media content (image/video file)
 
 ## Content Source
 

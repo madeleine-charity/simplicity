@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run build:*)",
+      "WebFetch(domain:substack.com)",
+      "WebFetch(domain:x0minerva.substack.com)",
+      "Bash(npm install:*)",
+      "Bash(node scripts/convert-substack.js:*)"
+    ]
+  }
+}
