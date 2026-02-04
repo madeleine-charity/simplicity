@@ -1,0 +1,11 @@
+# The aftermath of discounting traditionally women's labor
+
+Historically women have been confined to the private sphere, taking care of the home, raising kids, while only men were allowed the public sphere- being a part of the workforce. The feminist movement of the 60’s and 70’s bravely took aim at the patriarchy by pushing for women’s inclusion in the public sphere. This allowed women to earn a living and achieve financial independence.
+
+I am beyond grateful for the work of these feminists. I love my job and am acutely aware that without their work, I would not be able to do what I do. The idea of not being able to pursue my intellectual pursuits rattle me to my bones.
+
+But I think we have been discounting the labor women were doing at home. Raising kids is important work, and should not be viewed as an extracurricular. It takes work and skill to instill values in kids and raise them with a healthy sense of self esteem. Devaluing this labor has led to a less moral, more socially isolated populace. I see the values and skills needed to have meaningful relationships and be a contributing member of a community in an alarmingly low number of my peers.
+
+I am not saying that all women should stay home and make babies. I am saying that women who choose to bear and raise the next generation should not be left dependent on someone else for financial security if they choose to forgo their career. This financial dependence can trap women in unhealthy and harmful relationships, with little control over their lives long term. Having kids while also trying to maintain a career leaves women with a mountain of both paid labor and unpaid domestic work at home.
+
+We need to find a way for women to be able to pursue whatever path they want and life and not have it impact their independence. Across the developing world birth rates are declining, fewer and fewer women plan to have kids in their life. If this is a problem we want to solve, the metaphor of the carrot and the stick comes to mind. I believe it is immoral to deny women access to birth control. If we want women to have kids, we should instead incentivize the behavior. But instead, we live in a world where a woman having a kid feels like the end of her career. Punishing women who have kids with financial insecurity feels incredibly counter productive to the health of our society.

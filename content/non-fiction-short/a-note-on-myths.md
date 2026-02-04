@@ -1,0 +1,5 @@
+# A note on myths
+
+Myths are a way for us to understand the world. Every society has had a set of myths that was important to the collective consciousness, particularly around creation and higher powers. Every society thought their mythology was the correct mythology, that their stories actually happened. But what makes these stories myth is that they are impossible to verify, no one was really there. They are logically consistent within themselves, but not provable by an external formal system.
+
+Godel's incompleteness theorem states that no formal system is both consistent and complete. We don't have any purely logical systems that explain everything. *The fact that a mythology can't be proven doesn't mean it doesn't serve an important purpose.* We must remember we are finite beings that will never be able to understand everything about the universe we live in. Mythology's primary purpose is to calm and form our collective consciousness, not to be provably true.

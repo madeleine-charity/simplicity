@@ -1,0 +1,15 @@
+# Americans forgot how to love
+
+In building one of the strongest economies in the world, we have left behind what makes us human. In the constant urgency of production Americans don’t have the time or energy to develop our emotional skills. Being closed off to love and unable to keep it alive has cut us off from what makes us human.
+
+\*\* Note I’m not just talking about romantic relationships here, you can and should love friends and family as well. Sex and love are not semantically equivalent.
+
+First off, to fall in love your heart must be open. There is obviously an element of luck in meeting someone you are compatible with, but once you meet them you must be curious enough to learn more. Inherent in that curiosity is vulnerability, it’s letting your guard down and stepping into an unknown. Many Americans are buckling under the pressure of supporting themselves and getting food on the table, they do not have enough psychological safety to take such a risk.
+
+Once you are in love with someone it’s wonderful, but it’s also work to maintain. Skills like forgiveness, patience, and understanding enter the picture. Humans are fundamentally flawed, many of the world’s religions identify that as what makes us human. In a capitalist job, someone is good at that job because they are productive and they do not make costly mistakes. That is not the case in love, we must love other people for the mistakes that they make. In conflating our self worth with our productivity in the market, we have forgotten how to love flaws.
+
+Our flaws are who we are. When someone messes up or hurts us, they should not be written off and kicked out of our lives (depending on, of course, how much harm they inflicted). Moments of difference are when healthy relationships come together to discuss and heal and apologize. These are moments to understand each other better and deepen the relationship. But a worker who clocks in first thing in the morning and comes home just to collapse and sleep does not have the emotional bandwidth to do that emotional labor.
+
+Now if you are thinking this is a bit cliche, it is; this has all been said before. Loudly by the hippies of the 60s and 70s, but we didn’t listen. We wrote them off as ridiculous kids and their movement was eventually corporatized, neutered by the very people they were trying to protest. I’m arguing for a more pragmatic counter culture movement, inspired by the movements of the 60s and 70s. One not focused on hedonistic acts like sex and drugs, but focused on meaningful human life experiences like falling in love, maintaining healthy friendships and relationships, and being a nurturing parent.
+
+For us to succeed as a people in the modern world we must be able to handle nuance. The global capitalist economy is not a bad thing, we have been able to produce enough resources to support a growing population. I am not arguing to dismantle it. I am arguing that we as a people must set some boundaries with the capitalist machine so that we can maintain who we are as human beings while also playing our part to support the system.
