@@ -2,16 +2,21 @@ import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 
-const VALID_CATEGORIES = [
+const TEXT_CATEGORIES = [
   "fiction-long",
   "fiction-short",
   "non-fiction-long",
   "non-fiction-short",
+];
+
+const MEDIA_CATEGORIES = [
   "video",
   "photo",
   "abstract-moving",
   "abstract-still",
 ];
+
+const VALID_CATEGORIES = [...TEXT_CATEGORIES, ...MEDIA_CATEGORIES];
 
 export async function GET(
   request: NextRequest,
@@ -23,7 +28,11 @@ export async function GET(
     return NextResponse.json({ error: "Invalid category" }, { status: 400 });
   }
 
-  const contentDir = path.join(process.cwd(), "content", category);
+  // Text content is in /content, media is in /public/content
+  const isMedia = MEDIA_CATEGORIES.includes(category);
+  const contentDir = isMedia
+    ? path.join(process.cwd(), "public", "content", category)
+    : path.join(process.cwd(), "content", category);
 
   try {
     const files = fs.readdirSync(contentDir);

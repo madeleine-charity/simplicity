@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useState, useEffect } from "react";
 
 interface Choice {
   label: string;
@@ -35,13 +35,23 @@ function getRandomPosition(): { x: number; y: number } {
 }
 
 export default function ChoiceNode({ choices, onSelect }: ChoiceNodeProps) {
-  // Generate colors and position synchronously when choices change
-  const { color1, color2, position } = useMemo(() => {
+  // Use state to avoid hydration mismatch - only randomize on client
+  const [mounted, setMounted] = useState(false);
+  const [styles, setStyles] = useState({
+    color1: colors[0],
+    color2: colors[1],
+    position: { x: 50, y: 50 },
+  });
+
+  useEffect(() => {
+    setMounted(true);
     const c1 = getRandomColor();
     const c2 = getRandomColor(c1);
     const pos = getRandomPosition();
-    return { color1: c1, color2: c2, position: pos };
+    setStyles({ color1: c1, color2: c2, position: pos });
   }, [choices[0].value, choices[1].value]);
+
+  const { color1, color2, position } = styles;
 
   return (
     <div className="min-h-screen bg-white relative">

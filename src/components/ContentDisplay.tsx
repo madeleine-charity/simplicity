@@ -19,6 +19,26 @@ export default function ContentDisplay({
   content,
   onRestart,
 }: ContentDisplayProps) {
+  // Video gets full screen treatment
+  if (content.type === "video" && content.path) {
+    return (
+      <div className="min-h-screen flex flex-col bg-black">
+        <div className="flex-1 flex items-center justify-center">
+          <video
+            src={content.path}
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="w-full h-full object-contain"
+            style={{ maxHeight: 'calc(100vh - 60px)' }}
+          />
+        </div>
+        <FinBanner onClick={onRestart} />
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen flex flex-col bg-white text-black">
       <div className="flex-1 flex items-center justify-center p-8 py-16">
@@ -92,17 +112,6 @@ export default function ContentDisplay({
             src={content.path}
             alt=""
             className="max-w-full max-h-[80vh] object-contain"
-          />
-        )}
-
-        {content.type === "video" && content.path && (
-          <video
-            src={content.path}
-            controls
-            autoPlay
-            muted
-            loop
-            className="max-w-full max-h-[80vh]"
           />
         )}
       </div>
